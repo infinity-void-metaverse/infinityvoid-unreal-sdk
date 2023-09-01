@@ -19,7 +19,7 @@ Download the latest version of the Infinity Void Unreal Engine SDK on our [**Git
 | ----- | ----- | ----- |
 
 {% hint style="info" %}
-We don't recommend using Unreal Engine 5.0.3 as there is a known bug for dynamic resolution which has been acknowledged and rectified in the higher versions by Epic Games.
+We don't recommend using Unreal Engine 5.0.3 as there is a known bug for dynamic resolution which has been acknowledged and rectified in the later versions by Epic Games.
 {% endhint %}
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>

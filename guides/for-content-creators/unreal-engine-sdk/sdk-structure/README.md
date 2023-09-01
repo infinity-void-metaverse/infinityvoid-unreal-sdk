@@ -7,7 +7,11 @@ coverY: 0
 
 # SDK Structure
 
-Before delving into the functionality of the Infinity Void SDK, let’s familiarize ourselves with the folder structure within the SDK’s content directory. The content folder includes the following folders:
+Our SDK package consists of three main folders under the content folder
+
+* Core
+* Assets
+* UI
 
 {% content-ref url="03.1-core/" %}
 [03.1-core](03.1-core/)
