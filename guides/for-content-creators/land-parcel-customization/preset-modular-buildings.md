@@ -7,7 +7,7 @@ description: >-
 
 # Preset Modular Buildings
 
-## **Introducing Preset Modular Buildings**
+**Introducing Preset Modular Buildings**
 
 Think of Preset Modular Buildings as a curated selection of building designs that you can seamlessly integrate into your land parcels. These pre-designed structures are categorized into three types, each serving a specific purpose:
 
@@ -19,21 +19,11 @@ Think of Preset Modular Buildings as a curated selection of building designs tha
 
 Getting started with Preset Modular Buildings is a breeze. Here's how you can do it:
 
-Visit [dashboard.infinityvoid.io](https://dashboard.infinityvoid.io) and navigate to the "`Virtual Land Parcel`" tab.
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.45.36 PM.png" alt=""><figcaption></figcaption></figure>
-
-Locate the `Details/Settings` for the virtual land parcel where you want to incorporate a building.
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.42.52 PM.png" alt=""><figcaption></figcaption></figure>
-
-Scroll down to find the option to `Upload New Model` and click on it.
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.44.16 PM copy.png" alt=""><figcaption></figcaption></figure>
-
 You'll be presented with a plethora of building designs to choose from. Browse through the collection to find the perfect fit for your vision.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.46.51 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.47.04 PM.png" alt=""><figcaption></figcaption></figure>
 
 ## **Enhance Your Parcel Instantly**
 

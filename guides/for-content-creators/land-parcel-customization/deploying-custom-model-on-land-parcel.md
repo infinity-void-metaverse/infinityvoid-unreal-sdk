@@ -27,6 +27,8 @@ To guarantee compatibility and optimal performance, we recommend exporting your 
 
 In order to correctly design your 3D model based on the plot's dimension we offer a Plot Reference Model that you can download from the details page of your land on the dashboard. This model serves as a blueprint, clearly indicating the dimensions of your plot and entry points.
 
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.44.16 PM copy 2.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Dimensions pertain to the plot layout only. Inside your realm, you have the creative freedom to build as extensively as you wish.
 {% endhint %}
@@ -39,7 +41,7 @@ X axis of your model should point outward from the door (entry point) in Blender
 
 ### You can upload your custom model by going clicking on the change model button present in the settings page of your land parcel
 
-On that buildng selection page you could choose the custom tab and upload your model.
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.47.19 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### **Evaluating Your Model**
 

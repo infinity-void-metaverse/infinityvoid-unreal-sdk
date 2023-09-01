@@ -40,4 +40,20 @@ As a landowner in Vaikunth, you have the exciting opportunity to add your person
 1. **Preset Modular Building**: If you're looking for a hassle-free way to customize your land, you can choose from our preset modular buildings. These ready-to-use structures offer a quick and convenient solution, saving you time and effort while still letting you showcase your unique style.
 2. **Upload Your Own Models**: For those with a specific vision in mind, you can upload your own custom 3D models. These models serve as the visual gateway to your land parcel, offering a glimpse into the essence of your creation. Visitors who approach these models will have the option to "Visit Parcel," seamlessly transitioning to your dedicated realm.
 
+In order to customise your land do the following
+
+Visit [dashboard.infinityvoid.io](https://dashboard.infinityvoid.io) and navigate to the "`Virtual Land Parcel`" tab.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.45.36 PM.png" alt=""><figcaption></figcaption></figure>
+
+Locate the `Details/Settings` for the virtual land parcel where you want to incorporate a building.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.42.52 PM.png" alt=""><figcaption></figcaption></figure>
+
+Scroll down to find the option to `Upload New Model` and click on it.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.44.16 PM copy.png" alt=""><figcaption></figcaption></figure>
+
+
+
 The upcoming sections will guide you through the process of uploading and integrating your 3D models, ensuring that your contribution enriches Vaikunth's narrative and becomes an integral part of its ever-evolving story.
