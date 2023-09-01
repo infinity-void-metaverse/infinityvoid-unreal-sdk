@@ -6,7 +6,7 @@ Efficiency is key during packaging. We strongly recommend aiming for the smalles
 
 **Project Settings Preparation**
 
-Before initiating the packaging process, make sure your project settings align with the guidelines outlined in the [installation guide](../getting-started/02.-plugin-installation-guide.md). This ensures that your project is optimized and well-prepared for packaging. A well-configured project setting is fundamental for producing a polished and functional package.&#x20;
+Before initiating the packaging process, make sure your project settings align with the guidelines outlined in the [installation guide](../getting-started/level-setup.md). This ensures that your project is optimized and well-prepared for packaging. A well-configured project setting is fundamental for producing a polished and functional package.&#x20;
 
 **Optimizing Package Size**
 

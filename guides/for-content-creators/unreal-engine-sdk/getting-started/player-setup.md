@@ -5,7 +5,7 @@ cover: >-
 coverY: 0
 ---
 
-# 01. Creating a New Project
+# Player Setup
 
 If you don't already have an existing project, you can follow these steps to create a new project in Unreal Engine:
 

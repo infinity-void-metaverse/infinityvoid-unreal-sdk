@@ -5,7 +5,7 @@ cover: >-
 coverY: 0
 ---
 
-# 02. Plugin Installation Guide
+# Level Setup
 
 Follow these steps to install the Infinity Void SDK into your Unreal Engine project:
 
