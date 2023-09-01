@@ -18,7 +18,7 @@ When adding your own custom 3D models to your land parcel, it's essential to adh
 **PBR Textured Models and Workflow**: We encourage you to use Physically-Based Rendering (PBR) textures and workflow when creating your models. PBR enhances the realism of your creations by simulating how materials interact with light. This results in stunningly lifelike visuals. Ensure that your models are properly textured using PBR materials.
 
 {% hint style="info" %}
-Note: Vray materials are not compatible with GLB formats.
+Vray materials are not compatible with GLB formats.
 {% endhint %}
 
 **Export Using Blender**: To guarantee compatibility and optimal performance, we recommend exporting your custom models as .GLB files using Blender. Blender provides a range of tools and features that align seamlessly with Infinity Void's platform, ensuring a smooth and cohesive experience.
