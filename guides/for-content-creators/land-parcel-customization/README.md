@@ -9,31 +9,31 @@ coverY: 0
 
 # Land Parcel Customization
 
-**3D Models: Your Virtual Show Windows**
+## **3D Models: Your Virtual Show Windows**
 
 Imagine your land parcel as a shop on a bustling street. The 3D models you upload act as captivating show windows that passersby can't help but glance into. These models don't possess interactive elements or functionality on their own, but they serve as visual cues, offering a glimpse into the theme or concept of your land parcel. Much like a book's cover, these 3D models entice others to explore what lies within.
 
-**Bigger Parcels, Greater Visibility**
+## **Bigger Parcels, Greater Visibility**
 
 Just as a larger shop window attracts more attention, the size of your land parcel directly influences the size of your 3D model. Larger parcels grant you more space to showcase your vision, making your "virtual shop window" more noticeable and engaging. This size-visibility connection ensures that your creative efforts don't go unnoticed, drawing in curious explorers to experience what you've crafted.
 
-**Transition to Your Realm**
+## **Transition to Your Realm**
 
 When visitors approach the 3D model on your land parcel, they will see an option to "Visit Parcel." This option is like an invitation to enter through the door of your shop and experience what's inside. Clicking on this option initiates a seamless transition into a separate realm—your realm. This realm is a dedicated digital space that you've crafted using Infinity Void's tools. It's here that the scene depicted by your 3D model comes to life.
 
-**Interactivity Inside Your Realm**
+## **Interactivity Inside Your Realm**
 
 Inside your realm, you have the creative freedom to build an interactive and immersive environment. Picture it as stepping into your shop where visitors can fully engage with the offerings. You can incorporate various elements such as buildings, landscapes, characters, activities, and more. Unlike the 3D model on your land parcel, your realm is not constrained by size or other limitations. It's a canvas for you to realize your creative vision fully.
 
-**Dimension and Size Limits**
+## **Dimension and Size Limits**
 
 When uploading your 3D model, specific dimensions and size limits ensure that your creation fits within the context of Vaikunth without overwhelming the surroundings. This limitation is in place to provide a consistent and enjoyable experience for all visitors as they explore the city.
 
-**Your Creative Expression**
+## **Your Creative Expression**
 
 Land Parcel Customization encourages you to showcase your creativity and share your vision with others. Your customized parcel serves as a hub for discussions, collaboration, and exploration, inviting others to join in your unique journey within the metaverse.
 
-**Options for Land Parcel Customization**
+## **Options for Land Parcel Customization**
 
 As a landowner in Vaikunth, you have the exciting opportunity to add your personal touch to your parcel. We provide you with two distinct options to transform your land into a creative showcase:
 
