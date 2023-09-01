@@ -5,7 +5,7 @@ description: >-
   Metaverse City.
 ---
 
-# Deploying Custom Model on Land Parcel
+# 3D Custom Model
 
 When adding your own custom 3D models to your land parcel, it's essential to adhere to a few fundamental guidelines:
 
@@ -19,27 +19,27 @@ When adding your own custom 3D models to your land parcel, it's essential to adh
 We encourage you to use Physically-Based Rendering (PBR) textures and workflow when creating your models. However, Vray materials are not compatible with GLB formats.
 {% endhint %}
 
-### **Export Using Blender**
+### **Export From Blender**
 
-To guarantee compatibility and optimal performance, we recommend exporting your custom models as .GLB files using Blender.&#x20;
+To guarantee compatibility and optimal performance, we recommend exporting your custom model as a GLB file using Blender.&#x20;
+
+{% hint style="info" %}
+Before exporting ensure that the pivot of your scene is at the origin (0,0,0) and the X axis of your model should point outward from the door (entry point) in Blender. This alignment ensures that your entry point of the 3D model faces the front of the plot.
+{% endhint %}
 
 ### **Using Plot Reference Model**
 
 In order to correctly design your 3D model based on the plot's dimension we offer a Plot Reference Model that you can download from the details page of your land on the dashboard. This model serves as a blueprint, clearly indicating the dimensions of your plot and entry points.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.44.16 PM copy 2.png" alt=""><figcaption></figcaption></figure>
-
 {% hint style="info" %}
 Dimensions pertain to the plot layout only. Inside your realm, you have the creative freedom to build as extensively as you wish.
 {% endhint %}
 
-### **Aligning the X-Axis**
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.44.16 PM copy 2.png" alt=""><figcaption></figcaption></figure>
 
-X axis of your model should point outward from the door (entry point) in Blender. This alignment ensures that your entry point of the 3d model faces the front of the plot.
+### **Uploading Your Model**
 
-### **Evaluating Your Model**
-
-### You can upload your custom model by going clicking on the change model button present in the settings page of your land parcel
+You can upload your custom model by clicking on the `Upload New Model` button present on the settings page of your land parcel and then clicking the `custom`tab.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.47.19 PM.png" alt=""><figcaption></figcaption></figure>
 

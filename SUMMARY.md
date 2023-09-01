@@ -23,7 +23,7 @@
   * [Platform Architecture](guides/for-content-creators/platform-architecture.md)
   * [Land Parcel Customization](guides/for-content-creators/land-parcel-customization/README.md)
     * [Preset Modular Buildings](guides/for-content-creators/land-parcel-customization/preset-modular-buildings.md)
-    * [Deploying Custom Model on Land Parcel](guides/for-content-creators/land-parcel-customization/deploying-custom-model-on-land-parcel.md)
+    * [3D Custom Model](guides/for-content-creators/land-parcel-customization/3d-custom-model.md)
   * [Unreal Engine SDK](guides/for-content-creators/unreal-engine-sdk/README.md)
     * [Getting Started](guides/for-content-creators/unreal-engine-sdk/getting-started/README.md)
       * [Player Setup](guides/for-content-creators/unreal-engine-sdk/getting-started/player-setup.md)
