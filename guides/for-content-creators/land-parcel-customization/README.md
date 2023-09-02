@@ -42,7 +42,7 @@ As a landowner in Vaikunth, you have the exciting opportunity to add your person
 
 In order to customise your land do the following
 
-Visit [dashboard.infinityvoid.io](https://dashboard.infinityvoid.io) and navigate to the "`Virtual Land Parcel`" tab.
+Visit [**Dashboard**](https://dashboard.infinityvoid.io/) and navigate to the "`Virtual Land Parcel`" tab.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.45.36 PM.png" alt=""><figcaption></figcaption></figure>
 

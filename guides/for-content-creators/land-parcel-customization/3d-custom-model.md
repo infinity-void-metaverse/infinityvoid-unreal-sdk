@@ -15,7 +15,7 @@ When adding your own custom 3D models to your land parcel, it's essential to adh
 * Size Limit: `10MB per 300sqm of your parcel`
 * Max Height: `48 meters for 300 sqm parcel`
 
-{% hint style="info" %}
+{% hint style="warning" %}
 We encourage you to use Physically-Based Rendering (PBR) textures and workflow when creating your models. V-RAY materials are not compatible with the GLB format.
 {% endhint %}
 
@@ -24,8 +24,26 @@ We encourage you to use Physically-Based Rendering (PBR) textures and workflow w
 To guarantee compatibility and optimal performance, we recommend exporting your custom model as a GLB file using Blender.&#x20;
 
 {% hint style="info" %}
-Before exporting ensure that the pivot of your scene is at the origin (0,0,0) and the X axis of your model should point outward from the door (entry point) in Blender. This alignment ensures that your entry point of the 3D model faces the front of the plot.
+#### X-axis should extend from the back of the model, pointing outward towards the front,  as depicted in the image below.
 {% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Axis Alignment.png" alt=""><figcaption></figcaption></figure>
+
+
+
+{% hint style="info" %}
+**Same axis orientation must be maintained as seen in the image below**
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Axis_Blender.png" alt=""><figcaption></figcaption></figure>
+
+
+
+{% hint style="info" %}
+#### **Model must located at the origin (0,0,0)**
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Blender_Location.png" alt=""><figcaption></figcaption></figure>
 
 ### **Using Plot Reference Model**
 
