@@ -20,7 +20,6 @@
   * [04. Adding Custom Models](guides/for-players/04.-adding-custom-models.md)
   * [05. Adding Videos](guides/for-players/05.-adding-videos.md)
 * [For Content Creators](guides/for-content-creators/README.md)
-  * [Platform Architecture](guides/for-content-creators/platform-architecture.md)
   * [Land Parcel Customization](guides/for-content-creators/land-parcel-customization/README.md)
     * [Preset Modular Buildings](guides/for-content-creators/land-parcel-customization/preset-modular-buildings.md)
     * [3D Custom Model](guides/for-content-creators/land-parcel-customization/3d-custom-model.md)
