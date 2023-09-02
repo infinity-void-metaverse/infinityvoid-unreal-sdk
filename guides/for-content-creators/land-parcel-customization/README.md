@@ -23,7 +23,7 @@ We provide you with two distinct options to transform your land into a creative 
 1. [**Preset Modular Building**](preset-modular-buildings.md): If you're looking for a hassle-free way to customize your land, you can choose from our preset modular buildings. These ready-to-use structures offer a quick and convenient solution, saving you time and effort while still letting you showcase your unique style.
 2. [**Upload Your Own Models**](3d-custom-model.md): For those with a specific vision in mind, you can upload your own custom 3D models. These models serve as the visual gateway to your land parcel, offering a glimpse into the essence of your creation.&#x20;
 
-Follow the steps mentioned below to customize your land parcel:
+### Navigating to Settings Page of Land Parcel
 
 Visit [**Dashboard**](https://dashboard.infinityvoid.io/) and navigate to the `Virtual Land Parcel` tab.
 

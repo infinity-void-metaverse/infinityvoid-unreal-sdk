@@ -2,30 +2,28 @@
 description: This page will tell how to add videos to your scene.
 ---
 
-# Deploying Your Scene
+# Deploying Scene
 
 **Effortless Scene Deployment with Void Craft: A Guided Approach**
 
-Elevate your immersive experiences by seamlessly deploying scenes crafted with Void Craft. Follow these user-friendly steps to seamlessly integrate your scenes into Infinity Void's dynamic metaverse:
+A `scene` is a 3D experience or environment that can be either created within the Void Craft platform or imported/uploaded from external sources like Unreal Engine.
 
-**1. Visit the Dashboard:**
+All created scenes are located in the `Experiences` tab on the dashboard.
 
-Begin by navigating to the Infinity Void dashboard. This centralized hub is your gateway to a world of creative possibilities.
+<figure><img src="../../.gitbook/assets/scenes.png" alt=""><figcaption></figcaption></figure>
 
-**2. Access Land Parcel Settings:**
 
-Locate the land parcel settings. This pivotal step takes you closer to sharing your carefully designed scenes with a broader audience.
 
-**3. Deploy Your Scene:**
+In order to deploy your scene
 
-Within the land parcel settings, you'll discover an option to deploy scenes. This is where your vision comes to life. Select the scene you've meticulously crafted using Void Craft, and feel the anticipation of sharing your creation.
+<figure><img src="../../.gitbook/assets/deploy scene.png" alt=""><figcaption></figcaption></figure>
 
-**4. Embrace the Impact:**
+1. Navigate to `Dashboard` > `Virtual Land Parcel` > `Settings`
+2. Within the settings page of your virtual land parcel, locate the `Deploy Scene` dropdown menu.
+3. Click on the dropdown button within the Deploy Scene option to view a list of scenes compatible with your land parcel.&#x20;
+4. Choose the 3D scene you wish to deploy from the available options in the dropdown menu.
+5. After selecting the desired scene, make sure to save your changes by clicking the `Save` button at the bottom of the page.
 
-Witness the power of your work as the deployed scene seamlessly becomes a part of Infinity Void's ever-evolving metaverse. Your creative contribution enriches the shared experiences within this interconnected realm.
-
-**Seamless Integration, Rich Exploration:**
-
-By following these steps, you take a leap towards bringing your Void Craft scenes to life within Infinity Void's vibrant metaverse. Your creative journey finds its stage, ready to inspire and engage others.
-
-\[Include any additional resources or support information for reference.]
+{% hint style="info" %}
+If you want to know how to access the settings page of your land then visit [#navigating-to-settings-page-of-land-parcel](land-parcel-customization/#navigating-to-settings-page-of-land-parcel "mention")
+{% endhint %}
