@@ -62,6 +62,10 @@ Once the desired plugins are installed, simply double-click your projects .uproj
 If building from Visual Studio, right-click your .uproject file and select 'Generate Visual Studio project files'. After a short while, your .sln file will be updated. Simply open the Visual Studio Solution, and build the project.
 {% endhint %}
 
-### Creating Account on Infinity Void Dashboard <a href="#install-inworld-to-the-project" id="install-inworld-to-the-project"></a>
+### Creating an Account <a href="#install-inworld-to-the-project" id="install-inworld-to-the-project"></a>
 
-Integrating your Unreal project into Infinity Void's interconnected virtual world requires an active Infinity Void account. If you haven't already created an account, it's essential to sign up: [**Infinity Void Account Signup**](https://dashboard.infinityvoid.io/). Your Infinity Void account serves as the portal to our platform's diverse array of features and functionalities. It empowers you to share your creative vision with a wider audience. Please ensure that the account used has access to the land parcel or has purchased/subscribed to a land parcel.
+Integrating your Unreal project into Infinity Void's interconnected virtual world requires an active Infinity Void account. If you haven't already created an account, it's essential to [sign up](https://dashboard.infinityvoid.io/).
+
+{% hint style="info" %}
+Please ensure that the account used has access to the land parcel or has purchased/subscribed to a land parcel.
+{% endhint %}
