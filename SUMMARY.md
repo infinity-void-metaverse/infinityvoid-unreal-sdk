@@ -49,4 +49,4 @@
       * [Adding Custom Images](guides/for-content-creators/void-craft/getting-started/03.-adding-custom-images.md)
       * [Adding Custom Models](guides/for-content-creators/void-craft/getting-started/04.-adding-custom-models.md)
       * [Adding Videos](guides/for-content-creators/void-craft/getting-started/adding-videos.md)
-  * [Deploying Your Scene](guides/for-content-creators/deploying-your-scene.md)
+  * [Deploying Scene](guides/for-content-creators/deploying-scene.md)
