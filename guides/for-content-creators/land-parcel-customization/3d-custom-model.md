@@ -10,10 +10,10 @@ When adding your own custom 3D models to your land parcel, it's essential to adh
 
 * Accepted File Type: `.GLB`
 * Size Limit: `10MB per 300sqm of your parcel`
-* Max Height: `48 meters for 300 sqm parcel`
+* Max Height: `48 meters for 300sqm parcel`
 
 {% hint style="warning" %}
-We encourage you to use Physically-Based Rendering (PBR) textures and workflow when creating your models. V-RAY materials are not compatible with the GLB format.
+Use PBR materials for your model. V-RAY materials are not compatible with the GLB format.
 {% endhint %}
 
 ### **Export From Blender**

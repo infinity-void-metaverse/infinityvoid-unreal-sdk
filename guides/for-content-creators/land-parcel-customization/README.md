@@ -16,20 +16,16 @@ When visitors approach the 3D model on your land parcel, they will see an option
 
 Inside your realm, you have the creative freedom to build an interactive and immersive environment. Picture it as stepping into your shop where visitors can fully engage with the offerings. You can incorporate various elements such as buildings, landscapes, characters, activities, and more. Unlike the 3D model on your land parcel, your realm is not constrained by size or other limitations. It's a canvas for you to realize your creative vision fully.
 
-## **Dimension and Size Limits**
-
-When uploading your 3D model, specific dimensions and size limits ensure that your creation fits within the context of Vaikunth without overwhelming the surroundings. This limitation is in place to provide a consistent and enjoyable experience for all visitors as they explore the city.
-
 ## **Options for Land Parcel Customization**
 
 We provide you with two distinct options to transform your land into a creative showcase:
 
-1. **Preset Modular Building**: If you're looking for a hassle-free way to customize your land, you can choose from our preset modular buildings. These ready-to-use structures offer a quick and convenient solution, saving you time and effort while still letting you showcase your unique style.
-2. **Upload Your Own Models**: For those with a specific vision in mind, you can upload your own custom 3D models. These models serve as the visual gateway to your land parcel, offering a glimpse into the essence of your creation.&#x20;
+1. [**Preset Modular Building**](preset-modular-buildings.md): If you're looking for a hassle-free way to customize your land, you can choose from our preset modular buildings. These ready-to-use structures offer a quick and convenient solution, saving you time and effort while still letting you showcase your unique style.
+2. [**Upload Your Own Models**](3d-custom-model.md): For those with a specific vision in mind, you can upload your own custom 3D models. These models serve as the visual gateway to your land parcel, offering a glimpse into the essence of your creation.&#x20;
 
 Follow the steps mentioned below to customize your land parcel:
 
-Visit [**Dashboard**](https://dashboard.infinityvoid.io/) and navigate to the "`Virtual Land Parcel`" tab.
+Visit [**Dashboard**](https://dashboard.infinityvoid.io/) and navigate to the `Virtual Land Parcel` tab.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.45.36 PM.png" alt=""><figcaption></figcaption></figure>
 
