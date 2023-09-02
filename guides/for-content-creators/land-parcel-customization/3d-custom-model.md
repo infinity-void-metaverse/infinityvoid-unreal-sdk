@@ -37,7 +37,7 @@ To guarantee compatibility and optimal performance, we recommend exporting your 
 
 
 {% hint style="info" %}
-#### **Model must located at the origin (0,0,0)**
+#### **Model must be located at the origin (0,0,0)**
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Blender_Location.png" alt=""><figcaption></figcaption></figure>
