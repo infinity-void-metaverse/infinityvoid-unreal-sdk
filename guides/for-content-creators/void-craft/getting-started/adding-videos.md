@@ -6,6 +6,8 @@ description: This page will tell how to add videos to your scene.
 
 Adding video to the scene:
 
+<figure><img src="../../../../.gitbook/assets/video.png" alt=""><figcaption></figcaption></figure>
+
 1. Navigate to `Smart Objects` > `Videos`.
 2. Select the display you prefer for your video and drag it to your scene.
 3. In the details panel, you will see fields where you can add the `Youtube URL`.
