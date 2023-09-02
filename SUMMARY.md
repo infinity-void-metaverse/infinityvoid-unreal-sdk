@@ -44,7 +44,7 @@
   * [Void Craft](guides/for-content-creators/void-craft/README.md)
     * [Getting Started](guides/for-content-creators/void-craft/getting-started/README.md)
       * [Basics](guides/for-content-creators/void-craft/getting-started/basics.md)
-      * [Building Setup](guides/for-content-creators/void-craft/getting-started/building-setup.md)
+      * [Adding Building](guides/for-content-creators/void-craft/getting-started/adding-building.md)
       * [Adding NFTs](guides/for-content-creators/void-craft/getting-started/02.-adding-nfts.md)
       * [Adding Custom Images](guides/for-content-creators/void-craft/getting-started/03.-adding-custom-images.md)
       * [Adding Custom Models](guides/for-content-creators/void-craft/getting-started/04.-adding-custom-models.md)
