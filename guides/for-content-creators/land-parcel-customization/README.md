@@ -1,12 +1,3 @@
----
-description: >-
-  Welcome to the world of Land Parcel Customization in Vaikunth, Infinity Void's
-  Singular Metaverse City.
-cover: >-
-  https://images.unsplash.com/photo-1542751371-adc38448a05e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwzfHxnYW1pbmd8ZW58MHx8fHwxNjYzOTI1MzI5&ixlib=rb-1.2.1&q=80
-coverY: 0
----
-
 # Land Parcel Customization
 
 ## **3D Models: Your Virtual Show Windows**
@@ -29,18 +20,14 @@ Inside your realm, you have the creative freedom to build an interactive and imm
 
 When uploading your 3D model, specific dimensions and size limits ensure that your creation fits within the context of Vaikunth without overwhelming the surroundings. This limitation is in place to provide a consistent and enjoyable experience for all visitors as they explore the city.
 
-## **Your Creative Expression**
-
-Land Parcel Customization encourages you to showcase your creativity and share your vision with others. Your customized parcel serves as a hub for discussions, collaboration, and exploration, inviting others to join in your unique journey within the metaverse.
-
 ## **Options for Land Parcel Customization**
 
-As a landowner in Vaikunth, you have the exciting opportunity to add your personal touch to your parcel. We provide you with two distinct options to transform your land into a creative showcase:
+We provide you with two distinct options to transform your land into a creative showcase:
 
 1. **Preset Modular Building**: If you're looking for a hassle-free way to customize your land, you can choose from our preset modular buildings. These ready-to-use structures offer a quick and convenient solution, saving you time and effort while still letting you showcase your unique style.
-2. **Upload Your Own Models**: For those with a specific vision in mind, you can upload your own custom 3D models. These models serve as the visual gateway to your land parcel, offering a glimpse into the essence of your creation. Visitors who approach these models will have the option to "Visit Parcel," seamlessly transitioning to your dedicated realm.
+2. **Upload Your Own Models**: For those with a specific vision in mind, you can upload your own custom 3D models. These models serve as the visual gateway to your land parcel, offering a glimpse into the essence of your creation.&#x20;
 
-In order to customise your land do the following
+Follow the steps mentioned below to customize your land parcel:
 
 Visit [**Dashboard**](https://dashboard.infinityvoid.io/) and navigate to the "`Virtual Land Parcel`" tab.
 
@@ -54,6 +41,4 @@ Scroll down to find the option to `Upload New Model` and click on it.
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.44.16 PM copy.png" alt=""><figcaption></figcaption></figure>
 
-
-
-The upcoming sections will guide you through the process of uploading and integrating your 3D models, ensuring that your contribution enriches Vaikunth's narrative and becomes an integral part of its ever-evolving story.
+The upcoming sections will guide you through the process of selecting modular presets for your land and uploading a custom 3D model.

@@ -1,8 +1,5 @@
 ---
-description: >-
-  Welcome to the realm of Custom 3D Models, where you have the power to craft
-  and showcase your unique vision within Vaikunth, Infinity Void's Singular
-  Metaverse City.
+description: Upload custom 3D model to your land parcel
 ---
 
 # 3D Custom Model
@@ -21,7 +18,7 @@ We encourage you to use Physically-Based Rendering (PBR) textures and workflow w
 
 ### **Export From Blender**
 
-To guarantee compatibility and optimal performance, we recommend exporting your custom model as a GLB file using Blender.&#x20;
+To guarantee compatibility and optimal performance, we recommend exporting your custom model as a GLB file using Blender and adhering to the guidelines mentioned below.
 
 {% hint style="info" %}
 #### X-axis should extend from the back of the model, pointing outward towards the front,  as depicted in the image below.
@@ -50,20 +47,26 @@ To guarantee compatibility and optimal performance, we recommend exporting your 
 In order to correctly design your 3D model based on the plot's dimension we offer a Plot Reference Model that you can download from the details page of your land on the dashboard. This model serves as a blueprint, clearly indicating the dimensions of your plot and entry points.
 
 {% hint style="info" %}
-Dimensions pertain to the plot layout only. Inside your realm, you have the creative freedom to build as extensively as you wish.
+Dimensions pertain to the plot only. Inside your realm, you have the creative freedom to build as extensively as you wish.
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.44.16 PM copy 2.png" alt=""><figcaption></figcaption></figure>
 
 ### **Uploading Your Model**
 
-You can upload your custom model by clicking on the `Upload New Model` button present on the settings page of your land parcel and then clicking the `custom`tab.
+{% hint style="info" %}
+In order to know how to reach to this building selection page, check out the [.](./ "mention")
+{% endhint %}
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-09-01 at 7.47.19 PM.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="success" %}
+You can upload your custom 3d model on this page and click `Submit For Review`
+{% endhint %}
+
 ### **Evaluating Your Model**
 
-As part of the review process, your custom 3D model will be evaluated based on the following criteria:
+Once you upload your model, it will be evaluated based on the following criteria:
 
 1. **Quality of the Model**: Our team of experts will assess the technical and aesthetic quality of your model. This includes factors such as textures, geometry, and overall visual appeal. We're dedicated to showcasing the best of the metaverse, and high-quality models contribute to this goal.
 2. **Dimensional Adherence**: Your model should seamlessly fit within the dimensions of your land parcel. Ensuring that your creation aligns with the plot's dimensions is vital for a cohesive and immersive experience within Vaikunth.
@@ -71,7 +74,7 @@ As part of the review process, your custom 3D model will be evaluated based on t
 
 ### **The Path Forward**
 
-Upon successful completion of the review process, your custom 3D model will be integrated into your land parcel. This allows you to showcase your creativity and share your unique vision with fellow explorers and collaborators.
+Upon successful completion of the review process, your custom 3D model will  automatically be integrated into your land parcel.
 
 In the event that any adjustments are needed or if your model doesn't meet the criteria outlined above, our content moderation team will reach out to you via your registered email address. We value open communication and are here to guide you through the process, ensuring that your experience with Vaikunth remains exceptional.
 
