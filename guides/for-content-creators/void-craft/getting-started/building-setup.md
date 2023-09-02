@@ -8,7 +8,7 @@ description: This page will tell how to add building to your scene
 
 1. Navigate to `3D Models` > `Structure` > `Buildings`
 2. Browse through the available building designs.
-3. Choose a design that suits your project
+3. Choose a design that suits your project.
 4. You have three options for building types: (i) Ground Floor Structures (ii) Upper Floor Structures (iii) Complete Buildings
 
 {% hint style="info" %}

@@ -1,0 +1,22 @@
+---
+description: This page will tell how to add custom models to your scene.
+---
+
+# Adding Custom Models
+
+Here are the step-by-step instructions for adding 2D NFT in the scene:
+
+1. Navigate to `Smart Objects` > `3D` > `Asset Importer`
+2. Drag it to your scene.
+3. In the details panel, you will see fields where you can add the `HTTP URL` for the custom model.
+4. You also have the option to make the custom model `interactable`.&#x20;
+5. Input the necessary details and submit.
+6. The 3D model will be displayed.
+
+{% hint style="info" %}
+Interactable means if a user goes near the model, he/she can interact with it to get more information about the product.
+{% endhint %}
+
+{% hint style="warning" %}
+Only `GLB` and `GLTF` files are supported. Also, the 3D models have to be uploaded online and only the URL of the model has to be submitted.
+{% endhint %}

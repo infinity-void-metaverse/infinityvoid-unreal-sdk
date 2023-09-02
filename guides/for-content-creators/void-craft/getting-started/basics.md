@@ -34,7 +34,7 @@ The toolbar is a collection of essential tools required during scene creation. H
 
 `Character`: This tool allows you to add character to your scene. You need to drag and drop the option in order to get the character to the scene.
 
-`Play/Stop`: These buttons allow you to play and stop your character, so you can preview your environment with your character
+`Play/Stop`: These buttons allow you to play and stop your character, so you can preview your environment with your character.
 
 `Zoom Selection`: This tool allows you to zoom in on the selected object.&#x20;
 
@@ -44,7 +44,7 @@ The toolbar is a collection of essential tools required during scene creation. H
 
 `Unhide All Actors`: This tool allows you to unhide all the hidden objects in the scene. Align Camera: This option helps you align the camera to the selected object or a group of objects.&#x20;
 
-`FOV`: FOV stands for "field of view." This tool allows you to adjust the field of view of the camera, which determines how much of the scene is visible
+`FOV`: FOV stands for "field of view." This tool allows you to adjust the field of view of the camera, which determines how much of the scene is visible.
 
 ### Outliner
 
