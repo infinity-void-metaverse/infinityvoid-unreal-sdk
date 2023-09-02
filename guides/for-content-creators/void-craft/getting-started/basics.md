@@ -10,9 +10,13 @@ The Basics page is a great place to start if you're new to the Metaverse Creator
 
 ## User Interface
 
+<figure><img src="../../../../.gitbook/assets/VoidCraft-UI.png" alt=""><figcaption></figcaption></figure>
+
 The entire UI of the creator tool can be broadly classified under 5 heads
 
 ### **Toolbar**
+
+<figure><img src="../../../../.gitbook/assets/Toolbar.png" alt=""><figcaption></figcaption></figure>
 
 The toolbar is a collection of essential tools required during scene creation. Hovering over each icon on the toolbar reveals its purpose. Here is a list of the functions of each tool present on the toolbar:
 
@@ -48,19 +52,27 @@ The toolbar is a collection of essential tools required during scene creation. H
 
 ### Outliner
 
+<figure><img src="../../../../.gitbook/assets/Outliner.png" alt=""><figcaption></figcaption></figure>
+
 This lists all of the assets that have been added to the scene, making it easy to organize and manipulate them.
 
 ### Details Panel
 
 This allows you to edit the properties of selected assets, such as their position, rotation, and scale, as well as other properties.
 
+<figure><img src="../../../../.gitbook/assets/details panel.png" alt=""><figcaption></figcaption></figure>
+
 ### Content Browser
 
 This lets you search for and select additional assets to add to your scene.
 
+<figure><img src="../../../../.gitbook/assets/content browser.png" alt=""><figcaption></figcaption></figure>
+
 ### Material Editor
 
 This provides a comprehensive toolset for editing materials, allowing you to customize the appearance of your assets with ease.
+
+<figure><img src="../../../../.gitbook/assets/material editor.png" alt=""><figcaption></figcaption></figure>
 
 ## Controls
 

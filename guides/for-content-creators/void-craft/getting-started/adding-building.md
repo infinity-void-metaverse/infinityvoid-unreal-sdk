@@ -2,7 +2,7 @@
 description: This page will tell how to add building to your scene
 ---
 
-# Building Setup
+# Adding Building
 
 ### Adding Building Model
 
@@ -25,6 +25,8 @@ You have the creative freedom to explore and select different door designs based
 {% endhint %}
 
 ### Adding Elevator
+
+<figure><img src="../../../../.gitbook/assets/elevator.png" alt=""><figcaption></figcaption></figure>
 
 \
 To add an elevator to a multi-storied building, follow these straightforward steps:

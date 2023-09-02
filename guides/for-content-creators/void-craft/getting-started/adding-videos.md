@@ -4,7 +4,7 @@ description: This page will tell how to add videos to your scene.
 
 # Adding Videos
 
-Here are the step-by-step instructions for adding video in the scene:
+Adding video to the scene:
 
 1. Navigate to `Smart Objects` > `Videos`.
 2. Select the display you prefer for your video and drag it to your scene.
