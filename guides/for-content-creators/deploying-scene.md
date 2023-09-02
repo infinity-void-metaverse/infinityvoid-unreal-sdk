@@ -4,17 +4,11 @@ description: This page will tell how to add videos to your scene.
 
 # Deploying Scene
 
-**Effortless Scene Deployment with Void Craft: A Guided Approach**
-
 A `scene` is a 3D experience or environment that can be either created within the Void Craft platform or imported/uploaded from external sources like Unreal Engine.
 
 All created scenes are located in the `Experiences` tab on the dashboard.
 
 <figure><img src="../../.gitbook/assets/scenes.png" alt=""><figcaption></figcaption></figure>
-
-
-
-In order to deploy your scene
 
 <figure><img src="../../.gitbook/assets/deploy scene.png" alt=""><figcaption></figcaption></figure>
 
