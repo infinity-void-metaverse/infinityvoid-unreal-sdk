@@ -1,11 +1,10 @@
 ---
 description: >-
   The Basics page is designed to provide an introduction to the fundamental
-  concepts and functions of the Metaverse Creator Tool. This page is perfect for
-  those who are new to the tool.
+  concepts and functions.
 ---
 
-# 01. Basics
+# Basics
 
 The Basics page is a great place to start if you're new to the Metaverse Creator Tool. This tool is a user-friendly editor that allows you to create highly-detailed scenes with drag-and-drop ease, without requiring any prior knowledge of 3D design. The tool comes pre-loaded with a wide range of assets, materials, and programmed modules, all seamlessly integrated with the drag-and-drop functionality.
 
@@ -61,55 +60,12 @@ This lets you search for and select additional assets to add to your scene.
 
 ### Material Editor
 
-This provides a comprehensive toolset for  editing materials, allowing you to customize the appearance of your assets with ease.
+This provides a comprehensive toolset for editing materials, allowing you to customize the appearance of your assets with ease.
 
 ## Controls
 
+<table><thead><tr><th width="331">Input</th><th>Result</th></tr></thead><tbody><tr><td>RMB + Mouse X</td><td>Turn Camera Left-Right </td></tr><tr><td>RMB + Mouse Y</td><td>Turn Camera Up-Down</td></tr><tr><td>Middle Mouse Button + Mouse X</td><td>Move Left-Right</td></tr><tr><td>Middle Mouse Button + Mouse Y</td><td>Move Up-Down</td></tr><tr><td>Alt + Left Mouse Button</td><td>Move Forward-Backward</td></tr><tr><td>Mouse Wheel</td><td>Move Forward-Backward </td></tr><tr><td>Shift + Right Mouse Button</td><td>Orbit</td></tr><tr><td>Z</td><td>Zoom Selected Actors</td></tr><tr><td>Alt +Q</td><td>Isolate</td></tr><tr><td>Shift +Z</td><td>Undo Camera Action</td></tr><tr><td>Q</td><td>Set Selection Mode</td></tr><tr><td>W</td><td>Set Translation Mode</td></tr><tr><td>E</td><td>Set Rotation Mode</td></tr><tr><td>R</td><td>Set Scaling Mode</td></tr><tr><td>T</td><td>Toggle Snap</td></tr><tr><td>Alt +Delete</td><td>Delete Actors</td></tr><tr><td>Ctrl + Z</td><td>Undo Action</td></tr><tr><td>Ctrl +B</td><td>Redo Action</td></tr><tr><td>Ctrl +S</td><td>Save Current Scene</td></tr><tr><td>Ctrl +O</td><td>Open Scene</td></tr></tbody></table>
 
-
-|        |               |                  |
-| ------ | ------------- | ---------------- |
-| Camera | RMB + Mouse X | Turn Left-Right  |
-| Camera | RMB + Mouse Y | Turn Up-Down     |
-|        |               |                  |
-
-* **Camera**
-  *
-
-      &#x20;• Middle Mouse Button&#x20;
-
-\+ Mouse X – Move Left-Right ◦ + Mouse Y – Move Up-Down&#x20;
-
-• Alt + Left Mouse Button – Move Forward-Backward
-
-&#x20;• Mouse Wheel – Move Forward-Backward&#x20;
-
-• Shift + Right Mouse Button – Orbit Camera Mode (Rotation around Selected Actors) ◦ + Mouse X ◦ + Mouse Y
-
-• Input Action Focus (Z) – Zoom Selected Actors
-
-&#x20;• Input Action Isolate (Alt +Q) – Zoom Selected Actors and hide other ones, excluding Lighting
-
-&#x20;• Input Action Undo Camera Action (Shift +Z) – Restore the last camera state Gizmo Management Actions from this group switches states of the Transform Gizmo.&#x20;
-
-• Input Action Set Selection Mode (Q) • Input Action Set Translation Mode (W) • Input Action Set Rotation Mode (E)&#x20;
-
-• Input Action Set Scaling Mode (R)&#x20;
-
-• Input Action Toggle Snap (T) Actor Management&#x20;
-
-• Input Action Delete Actors (Alt +Delete)
-
-&#x20;• Input Action Delete Actors With Attachment (Delete) History&#x20;
-
-• Input Action Undo (Ctrl +Z)&#x20;
-
-• Input Action Redo (Ctrl +B) Scene Management&#x20;
-
-• Input Action Save Current Scene (Ctrl +S)&#x20;
-
-• Input Action Open Scene (Ctrl +O)&#x20;
-
-&#x20;• Left Mouse Button ◦ Select Actor ◦ + Shift – Select Multiple Actors ◦ Work with Transform Gizmo ▪ + Shift when Mouse Button Down – Transform with Duplicating Selected Actors with Attachment ▪ + Shift during dragging – in Place Mode (Translate Mode, yellow sphere handler), aligns an actor about placing surface normal. In the same way, placing works when a user spawns actors from Content Browser and Main Toolbar.&#x20;
-
-▪ + Ctrl – Transform with sweeping. For now, it works in the Translate Mode only.
+{% hint style="warning" %}
+Did you find any bugs? Mail us at [support@infinityvoid.io](mailto:support@infinityvoid.io)
+{% endhint %}
