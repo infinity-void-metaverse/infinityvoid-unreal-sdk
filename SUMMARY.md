@@ -13,12 +13,6 @@
 
 ## GUIDES
 
-* [For Players](guides/for-players/README.md)
-  * [01. Basics](guides/for-players/01.-basics.md)
-  * [02. Adding NFTs](guides/for-players/02.-adding-nfts.md)
-  * [03. Adding Custom Images](guides/for-players/03.-adding-custom-images.md)
-  * [04. Adding Custom Models](guides/for-players/04.-adding-custom-models.md)
-  * [05. Adding Videos](guides/for-players/05.-adding-videos.md)
 * [For Content Creators](guides/for-content-creators/README.md)
   * [Land Parcel Customization](guides/for-content-creators/land-parcel-customization/README.md)
     * [Preset Modular Buildings](guides/for-content-creators/land-parcel-customization/preset-modular-buildings.md)

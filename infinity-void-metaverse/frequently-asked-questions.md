@@ -12,7 +12,7 @@ coverY: 0
 You can check hardware requirements from [here](hardware-requirements.md).
 
 * **Can I play on a mobile device?**\
-  Yes, but the experience might be limited.
+  Yes.
 * **Can I log in from multiple computers?**\
   Yes, you can run Infinity Void from multiple computers.
 * **Can I use a different browser?**\
@@ -20,11 +20,9 @@ You can check hardware requirements from [here](hardware-requirements.md).
 
 ### Do I need a wallet to play in Infinity Void? <a href="#do-i-need-a-wallet-to-play-in-decentraland" id="do-i-need-a-wallet-to-play-in-decentraland"></a>
 
-If you want to fully enjoy the Infinity Void experience, we recommend you get yourself a digital wallet. Digital wallets work as your personal account, keeping all your digital assets (such as names, collectibles, LANDs) and in-world progress safe.
+If you want to fully enjoy the Infinity Void experience, we recommend you get yourself a digital wallet. Digital wallets work as your personal account, keeping all your digital assets (such as names, collectibles, LANDs) and in-world progress safe. However, you can play without having a wallet.
 
 If you choose to experience Infinity Void without a wallet, the information will only be locally stored: you will be able to walk around, customize your Avatar and chat with others in-world, but you won’t have the chance to receive daily rewards, participate in events or log in with a different device using the same ID and Avatar.
-
-Currently, Infinity Void supports Metamask and TrustWallet.
 
 ### I lost my digital wallet! What happens with my account? <a href="#i-lost-my-digital-wallet-what-happens-with-my-account" id="i-lost-my-digital-wallet-what-happens-with-my-account"></a>
 
@@ -46,13 +44,11 @@ We are still working on an artificial intelligence-based player reporting and bl
 
 A Virtual Land Parcel is a digital piece of real estate in Infinity Void's metaverse. These parcels are permanently owned by the users and developers. These virtual land parcels can be purchased from the official website or NFT marketplaces. This gives users full control over the environments and applications that they create.&#x20;
 
-### How large is a LAND? <a href="#how-large-is-a-tile-of-land" id="how-large-is-a-tile-of-land"></a>
 
-Size of the land depends upon its [categories](broken-reference).
 
 ### How can I buy LAND in Infinity Void? <a href="#how-can-i-buy-land-or-estates-in-decentraland" id="how-can-i-buy-land-or-estates-in-decentraland"></a>
 
-You can visit the [Mint Virtual Land](https://mint.infinityvoid.io/) page to buy currently available virtual land from Infinity Void. You can also buy land from the [second market](broken-reference).
+You can visit the [Map](https://map.infinityvoid.io/) page to buy currently available virtual land from Infinity Void. You can also buy land from the [second market](broken-reference).
 
 ### What does ‘owning’ virtual LAND mean and how does it work? <a href="#what-does-owning-virtual-land-mean-and-how-does-it-work" id="what-does-owning-virtual-land-mean-and-how-does-it-work"></a>
 
