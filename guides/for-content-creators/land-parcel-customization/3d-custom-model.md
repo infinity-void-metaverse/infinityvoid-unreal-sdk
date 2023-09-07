@@ -13,7 +13,7 @@ When adding your own custom 3D models to your land parcel, it's essential to adh
 * Max Height: `48 meters for 300sqm parcel`
 
 {% hint style="warning" %}
-Use PBR materials for your model. V-RAY materials are not compatible with the GLB format.
+Use PBR materials (except V-RAY) for your model.
 {% endhint %}
 
 ### **Export From Blender**
