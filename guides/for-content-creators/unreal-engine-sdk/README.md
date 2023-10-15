@@ -9,18 +9,14 @@ coverY: 0
 
 ### Download[​](https://docs.inworld.ai/docs/tutorial-integrations/unreal-engine#download) <a href="#download" id="download"></a>
 
-Download the latest version of the Infinity Void Unreal Engine SDK on our [**GitHub**](https://github.com/inworld-ai/inworld-unreal-sdk/releases).
+Download the latest version of the Infinity Void Unreal Engine SDK on our [**GitHub**](https://github.com/infinity-void-metaverse/infinityvoid-unreal-sdk).
 
 ### Compatibility[​](https://docs.inworld.ai/docs/tutorial-integrations/unreal-engine#compatibility) <a href="#compatibility" id="compatibility"></a>
 
 #### Supported  Engine Versions[​](https://docs.inworld.ai/docs/tutorial-integrations/unreal-engine#supported-platforms) <a href="#supported-platforms" id="supported-platforms"></a>
 
-| 5.0.3 | 5.1.1 | 5.2.1 |
-| ----- | ----- | ----- |
-
-{% hint style="info" %}
-We don't recommend using Unreal Engine 5.0.3 as there is a known bug for dynamic resolution which has been acknowledged and rectified in the later versions by Epic Games.
-{% endhint %}
+| 5.2.1 |
+| ----- |
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 

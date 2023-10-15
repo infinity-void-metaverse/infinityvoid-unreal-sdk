@@ -48,7 +48,7 @@ Once created, your project folder should be populated a Visual Studio .sln file,
 You must have a `Plugins` folder in your project directory. If one does not already exist, you will need to create one.
 {% endhint %}
 
-Download the plugins from the following page found [**here**](https://docs.inworld.ai/docs/tutorial-integrations/unreal-engine/)
+Download the plugins from the following page found [**here**](https://github.com/infinity-void-metaverse/infinityvoid-unreal-sdk)
 
 This download contains he Infinity Void plugin along with some other dependents plugins [gLTFRuntime](https://github.com/rdeioris/glTFRuntime), [Fetch](https://github.com/GDi4K/unreal-fetch), [Ready Player Me](https://docs.readyplayer.me/ready-player-me/integration-guides/unreal-engine).&#x20;
 
