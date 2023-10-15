@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "InfinityVoid",
+	"Description": "Infinity Void SDK  is a powerful toolkit that seamlessly integrate our metaverse features into your experiences and make them interoperable, interconnected with other worlds.",
+	"Category": "Other",
+	"CreatedBy": "Vardhman Infinity (P) Ltd",
+	"CreatedByURL": "https://infinityvoid.io/",
+	"DocsURL": "https://docs.infinityvoid.io/guides/for-content-creators",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "InfinityVoid",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PixelStreaming",
+			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "glTFRuntime",
+			"Enabled": true
+		},
+		{
+			"Name": "ReadyPlayerMe",
+			"Enabled": true
+		},
+		{
+			"Name": "Fetch",
+			"Enabled": true
+		}
+	]
+}
