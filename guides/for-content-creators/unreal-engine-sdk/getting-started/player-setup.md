@@ -5,21 +5,40 @@ cover: >-
 coverY: 0
 ---
 
-# Player Setup
+# Project Settings
 
-If you don't already have an existing project, you can follow these steps to create a new project in Unreal Engine:
+The settings mentioned on this page are crucial to ensure the proper functionality of your project. Please follow the instructions below to modify the necessary settings.
 
-1. Open the Unreal Engine Editor.
-2. Click on the "Game" tab in the main toolbar.
-3. In the project creation window, choose the "Blank Project" template.
-4. Under the "Project Defaults" section, it is recommended to select the project type as "C++." This choice allows for easy integration of C++ classes and includes the Blueprint functionality. However, you can choose a different project type based on your requirements.
-5. Specify the target platform for your project. The default setting is "Desktop," but note that the experience created can be accessible on other platforms as well.
-6. Decide whether to enable or disable features like ray tracing and starter content based on your project's needs and specifications.
-7. Choose the location where you want to save the project on your local machine.
-8. Click the "Create" button to create the project.
+### Maps & Modes
 
-Congratulations! You have successfully created a new project in Unreal Engine. You can now proceed with the installation of the Infinity Void SDK and begin developing your immersive experiences within the Infinity Void Metaverse.
+In the "Project Settings" section, locate the "Maps and Modes" category. Here, you will make several important changes.
 
-If you require any further guidance or have any questions, please refer to the documentation or reach out to our support team for assistance.
+**2.1 Default Game Mode**
 
-\
+* Set "Default Game Mode" to "BP\_IVGM."
+
+**2.2 Game Default Map**
+
+* Set "Game Default Map" to "Lobby."
+
+**2.3 Server Default Map**
+
+* Choose the map you've created for your game experience and set it as the "Server Default Map."
+
+#### Step 3: Game Instance Settings
+
+Scroll down to the "Game Instance" section.
+
+* Set "Game Instance Class" to "BP\_IVGI."
+
+#### Step 4: Touch Interface Settings
+
+Still within the "Project Settings" section, locate the "Touch Interface" category.
+
+**4.1 Always Show Touch Interface**
+
+* Set "Always Show Touch Interface" to "True."
+
+**4.2 Default Touch Interface**
+
+* Set "Default Touch Interface" to "none."

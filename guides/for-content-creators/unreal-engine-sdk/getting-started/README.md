@@ -45,7 +45,7 @@ Once created, your project folder should be populated a Visual Studio .sln file,
 ### Install Infinity Void SDK to the Project <a href="#install-inworld-to-the-project" id="install-inworld-to-the-project"></a>
 
 {% hint style="info" %}
-You must have a `Plugins` folder in your project directory. If one does not already exist, you will need to create one.
+If your project does not have a `Plugins` folder, you can paste the entire plugin folder which you've downloaded directly into your project folder.
 {% endhint %}
 
 Download the plugins from the following page found [**here**](https://github.com/infinity-void-metaverse/infinityvoid-unreal-sdk)

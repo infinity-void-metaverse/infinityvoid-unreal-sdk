@@ -22,12 +22,12 @@ Download the latest version of the Infinity Void Unreal Engine SDK on our [**Git
 
 #### Windows[​](https://docs.inworld.ai/docs/tutorial-integrations/unreal-engine#windows) <a href="#windows" id="windows"></a>
 
-| Requirement   | Version           |
-| ------------- | ----------------- |
-| Platform      | `Win64`           |
-| Unreal Engine | `5.0 / 5.1 / 5.2` |
-| Project Type  | C++               |
-| Visual Studio | 2019+             |
+| Requirement   | Version |
+| ------------- | ------- |
+| Platform      | `Win64` |
+| Unreal Engine | `5.2`   |
+| Project Type  | C++     |
+| Visual Studio | 2019+   |
 
 {% hint style="info" %}
 Our SDK is only available for windows as we require only Windows build to make experience cross platform. You could only build using windows however it will distributed to all the platforms.
