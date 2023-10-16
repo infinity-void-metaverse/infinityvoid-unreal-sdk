@@ -46,30 +46,13 @@ This documentation provides step-by-step instructions for creating a new map in 
 1. Open the Level Blueprint for your map.
 2. Add the following script to ensure that players see a crosshair while playing.
 
+<figure><img src="../../../../.gitbook/assets/crosshair BP.png" alt=""><figcaption></figcaption></figure>
+
 #### Step 5: Adding a Close UI Actor
 
 1. From the Content Browser, select the "Close\_UI" actor.
 2. Place it in your scene. The purpose of this actor is to communicate with the frontend to close the loading screen.
 3. You can adjust the delay by changing the delay value in the actor's details.
-
-#### Step 6: Linking to the Lobby Map
-
-1. Navigate to the "Lobby" map, located in the plugins folder.
-2. In the "Outline," select "BP\_InfinityVoidSDK" and go to "Details."
-3. In the "Gameplay Level" field, choose the map you've just created. This links your new map to the lobby map.
-
-#### Step 7: Adding an Exit Volume (Optional)
-
-* For a more immersive experience, you can add a volume actor called "BP\_Exit." Placing this actor and configuring the volume inside it will allow players to return to the city if they enter this designated area.
-
-### Making Elements Interactable
-
-#### Step 8: Making Elements Interactable
-
-* If you want to make in-game objects interactable, use the "BP\_InteractableBase" actor. Create a child class from it, modify the static mesh within the actor, and add interaction logic to the event graph.
-* To add interaction functionality to any other class, like a pawn, add the "IVInterface" to it and follow the same interaction logic.
-
-
 
 ```
 Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/IVTest.IVTest:PersistentLevel.IVTest.EventGraph.K2Node_CallFunction_0"'
@@ -109,6 +92,29 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_Knot Name="K2Node_Knot_0" Expor
    CustomProperties Pin (PinId=8894E7814F931E2249B42F85E5079A15,PinName="OutputPin",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/InfinityVoid/Core/BP_IVHUD.BP_IVHUD_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_2 C7FFD1C04CD4D83AB73E7FB5B709D92A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 ```
+
+<figure><img src="../../../../.gitbook/assets/delay.png" alt=""><figcaption></figcaption></figure>
+
+#### Step 6: Linking to the Lobby Map
+
+1. Navigate to the "Lobby" map, located in the plugins folder.
+2. In the "Outline," select "BP\_InfinityVoidSDK" and go to "Details."
+3. In the "Gameplay Level" field, choose the map you've just created. This links your new map to the lobby map.
+
+<figure><img src="../../../../.gitbook/assets/level select.png" alt=""><figcaption></figcaption></figure>
+
+#### Step 7: Adding an Exit Volume (Optional)
+
+* For a more immersive experience, you can add a volume actor called "BP\_Exit." Placing this actor and configuring the volume inside it will allow players to return to the city if they enter this designated area.
+
+### Making Elements Interactable
+
+#### Step 8: Making Elements Interactable
+
+* If you want to make in-game objects interactable, use the "BP\_InteractableBase" actor. Create a child class from it, modify the static mesh within the actor, and add interaction logic to the event graph.
+* To add interaction functionality to any other class, like a pawn, add the "IVInterface" to it and follow the same interaction logic.
+
+
 
 ### Conclusion
 
