@@ -11,40 +11,40 @@ The settings mentioned on this page are crucial to ensure the proper functionali
 
 ### Maps & Modes
 
-In the "Project Settings" section, locate the "Maps and Modes" category. Here, you will make several important changes.
+In the "Project Settings" section, locate the `Maps and Modes` category. Here, you will make several important changes.
 
-**2.1 Default Game Mode**
+**Default Game Mode**
 
-* Set "Default Game Mode" to "BP\_IVGM."
+Set "Default Game Mode" to `BP_IVGM`
 
-**2.2 Game Default Map**
+**Game Default Map**
 
-* Set "Game Default Map" to "Lobby."
+Set "Game Default Map" to `Lobby`
 
-**2.3 Server Default Map**
+**Server Default Map**
 
-* Choose the map you've created for your game experience and set it as the "Server Default Map."
+Choose the map you've created for your game experience and set it as the Server Default Map.
 
-<figure><img src="../../../../.gitbook/assets/GM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/GM.png" alt=""><figcaption><p>Map Settings</p></figcaption></figure>
 
-#### Step 3: Game Instance Settings
+#### Game Instance Settings
 
 Scroll down to the "Game Instance" section.
 
-* Set "Game Instance Class" to "BP\_IVGI."
+* Set `Game Instance Class` to **`BP_IVGI`**
 
-<figure><img src="../../../../.gitbook/assets/gi.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/gi.png" alt=""><figcaption><p>Game Instance Class</p></figcaption></figure>
 
-#### Step 4: Touch Interface Settings
+### Input Settings
 
 Still within the "Project Settings" section, locate the "Touch Interface" category.
 
-**4.1 Always Show Touch Interface**
+**Always Show Touch Interface**
 
-* Set "Always Show Touch Interface" to "True."
+Set `Always Show Touch Interface` to **`True`**
 
-**4.2 Default Touch Interface**
+**Default Touch Interface**
 
-* Set "Default Touch Interface" to "none."
+Set `Default Touch Interface` to **`none`**
 
-<figure><img src="../../../../.gitbook/assets/input.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/input.png" alt=""><figcaption><p>Input Settings</p></figcaption></figure>
