@@ -113,11 +113,3 @@ End Object
 
 * If you want to make in-game objects interactable, use the "BP\_InteractableBase" actor. Create a child class from it, modify the static mesh within the actor, and add interaction logic to the event graph.
 * To add interaction functionality to any other class, like a pawn, add the "IVInterface" to it and follow the same interaction logic.
-
-
-
-### Conclusion
-
-You have successfully created a new map and configured essential gameplay elements to enhance the player experience in your project. Save your changes and test your map to ensure everything works as intended. For further assistance or troubleshooting, refer to your project's documentation or consult the development platform you are using.
-
-Thank you for using our tools and plugins, and best of luck with your game development project!
