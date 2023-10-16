@@ -1,20 +1,8 @@
----
-description: Infinity Void Unreal Engine SDK - Getting Started
----
-
 # Level Setup
 
-Certainly, here's an example of documentation based on the provided instructions for creating a new map and setting up certain gameplay elements:
-
-## New Map and Gameplay Setup Documentation
-
-### Introduction
-
-This documentation provides step-by-step instructions for creating a new map in your game development project and setting up various gameplay elements to enhance the player experience. Follow these steps to create a new map and configure essential elements within it.
+Instructions for creating a new map in your game development project and setting up various gameplay elements to enhance the player experience. Follow these steps to create a new map and configure essential elements within it.
 
 ### Creating a New Map
-
-#### Step 1: Create a New Map
 
 1. Inside your project's Content folder, create a new folder named "Maps" to organize your map assets.
 2. To create a new map, follow these steps:
@@ -22,6 +10,16 @@ This documentation provides step-by-step instructions for creating a new map in 
    * Select "New Level."
    * You'll be presented with various options; choose the one that suits your project's needs. For a large world, select "Open World," and for a small scene, choose the "Basic Level" option.
 3. After creating your level, ensure that you save it and give it a meaningful name.
+
+<div>
+
+<figure><img src="../../../../.gitbook/assets/new level.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/options.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Step 2: Set Default Server Map
 
@@ -44,12 +42,6 @@ This documentation provides step-by-step instructions for creating a new map in 
 2. Add the following script to ensure that players see a crosshair while playing.
 
 <figure><img src="../../../../.gitbook/assets/crosshair BP.png" alt=""><figcaption></figcaption></figure>
-
-#### Step 5: Adding a Close UI Actor
-
-1. From the Content Browser, select the "Close\_UI" actor.
-2. Place it in your scene. The purpose of this actor is to communicate with the frontend to close the loading screen.
-3. You can adjust the delay by changing the delay value in the actor's details.
 
 ```
 Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/IVTest.IVTest:PersistentLevel.IVTest.EventGraph.K2Node_CallFunction_0"'
@@ -89,6 +81,12 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_Knot Name="K2Node_Knot_0" Expor
    CustomProperties Pin (PinId=8894E7814F931E2249B42F85E5079A15,PinName="OutputPin",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=/Script/Engine.BlueprintGeneratedClass'"/InfinityVoid/Core/BP_IVHUD.BP_IVHUD_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_CallFunction_2 C7FFD1C04CD4D83AB73E7FB5B709D92A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
 End Object
 ```
+
+#### Step 5: Adding a Close UI Actor
+
+1. From the Content Browser, select the "Close\_UI" actor.
+2. Place it in your scene. The purpose of this actor is to communicate with the frontend to close the loading screen.
+3. You can adjust the delay by changing the delay value in the actor's details.
 
 <figure><img src="../../../../.gitbook/assets/delay.png" alt=""><figcaption></figcaption></figure>
 

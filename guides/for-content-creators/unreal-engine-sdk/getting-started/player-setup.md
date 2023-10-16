@@ -26,9 +26,7 @@ Choose the map you've created for your game experience and set it as the Server 
 
 #### Game Instance Settings
 
-Scroll down to the "Game Instance" section.
-
-* Set `Game Instance Class` to **`BP_IVGI`**
+Scroll down to the "Game Instance" section. Set `Game Instance Class` to **`BP_IVGI`**
 
 <figure><img src="../../../../.gitbook/assets/gi.png" alt=""><figcaption><p>Game Instance Class</p></figcaption></figure>
 
