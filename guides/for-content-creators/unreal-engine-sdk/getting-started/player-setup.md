@@ -25,11 +25,15 @@ In the "Project Settings" section, locate the "Maps and Modes" category. Here, y
 
 * Choose the map you've created for your game experience and set it as the "Server Default Map."
 
+<figure><img src="../../../../.gitbook/assets/GM.png" alt=""><figcaption></figcaption></figure>
+
 #### Step 3: Game Instance Settings
 
 Scroll down to the "Game Instance" section.
 
 * Set "Game Instance Class" to "BP\_IVGI."
+
+<figure><img src="../../../../.gitbook/assets/gi.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 4: Touch Interface Settings
 
@@ -42,3 +46,5 @@ Still within the "Project Settings" section, locate the "Touch Interface" catego
 **4.2 Default Touch Interface**
 
 * Set "Default Touch Interface" to "none."
+
+<figure><img src="../../../../.gitbook/assets/input.png" alt=""><figcaption></figcaption></figure>
