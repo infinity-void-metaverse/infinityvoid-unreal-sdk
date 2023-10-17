@@ -4,12 +4,11 @@ Instructions for creating a new map in your game development project and setting
 
 ### Creating a New Map
 
-1. Inside your project's Content folder, create a new folder named "Maps" to organize your map assets.
-2. To create a new map, follow these steps:
-   * Click on "File" in the menu.
-   * Select "New Level."
-   * You'll be presented with various options; choose the one that suits your project's needs. For a large world, select "Open World," and for a small scene, choose the "Basic Level" option.
-3. After creating your level, ensure that you save it and give it a meaningful name.
+To create a new map, follow these steps:
+
+* Click on "File" in the menu.
+* Select "New Level."
+* You'll be presented with various options; choose the one that suits your project's needs. For a large world, select "Open World," and for a small scene, choose the "Basic Level" option.
 
 <div>
 
@@ -21,27 +20,45 @@ Instructions for creating a new map in your game development project and setting
 
 </div>
 
-#### Step 2: Set Default Server Map
+### Set Default Server Map
 
-1. In your project settings, navigate to the "Maps and Modes" section.
-2. Update the "Server Default Map" setting with the map you've just created. This ensures that your new map is set as the default server map for your project.
+In your project settings, navigate to the `Maps and Modes` section.
 
-### Adding Gameplay Elements
+Update the `Server Default Map` setting with the map you've just created. This ensures that your new map is set as the default server map for your project.
 
-#### Step 3: Add Player Start
+### Adding Player Start
 
-1. Open your newly created map.
-2. To add a player start point, follow these steps:
-   * Choose the "Place Actors" panel.
-   * Select "Player Start" from the available options.
-   * Place the player start in your scene. This determines where players will spawn in your map.
+Open your newly created map.
 
-#### Step 4: Configuring the Crosshair
+To add a player start point, follow these steps:
 
-1. Open the Level Blueprint for your map.
-2. Add the following script to ensure that players see a crosshair while playing.
+* Choose the "Place Actors" panel.
+* Select "Player Start" from the available options.
+* Place the player start in your scene. This determines where players will spawn in your map.
+
+<div>
+
+<figure><img src="../../../../.gitbook/assets/place actors panel.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../../../.gitbook/assets/player start.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Adding Crosshair
+
+Open the Level Blueprint for your map.
+
+Add the following script to ensure that players see a crosshair while playing.
+
+{% hint style="info" %}
+Crosshair is mandatory if you wish to utilize the default interaction system present in our SDK.
+{% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/crosshair BP.png" alt=""><figcaption></figcaption></figure>
+
+Or you can copy and paste this code directly within the event graph of the level blueprint.
 
 ```
 Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0" ExportPath=/Script/BlueprintGraph.K2Node_CallFunction'"/Game/IVTest.IVTest:PersistentLevel.IVTest.EventGraph.K2Node_CallFunction_0"'
@@ -82,29 +99,32 @@ Begin Object Class=/Script/BlueprintGraph.K2Node_Knot Name="K2Node_Knot_0" Expor
 End Object
 ```
 
-#### Step 5: Adding a Close UI Actor
+### Adding a Close UI Actor
 
-1. From the Content Browser, select the "Close\_UI" actor.
+1. From the Content Browser navigate to `Plugins` > `Infinity Void Content` > `Utils`, select the `Close_UI` actor.
 2. Place it in your scene. The purpose of this actor is to communicate with the frontend to close the loading screen.
 3. You can adjust the delay by changing the delay value in the actor's details.
 
+{% hint style="info" %}
+If you wish to close the loading screen based on some event you may use the same logic present in the Close\_UI actor.
+{% endhint %}
+
 <figure><img src="../../../../.gitbook/assets/delay.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 6: Linking to the Lobby Map
+### Linking to the Lobby Map
 
-1. Navigate to the "Lobby" map, located in the plugins folder.
-2. In the "Outline," select "BP\_InfinityVoidSDK" and go to "Details."
-3. In the "Gameplay Level" field, choose the map you've just created. This links your new map to the lobby map.
+Navigate to the "Lobby" map, located in the plugins folder.
+
+In the Outliner select `BP_InfinityVoidSDK` and go to `Details`.
+
+In the `Gameplay Level` field, choose the map you've just created. This links your new map to the lobby map.
+
+{% hint style="info" %}
+Lobby map is the application's default map. This map is visible to players. It only servers the purpose of opening the main level which you create.
+{% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/level select.png" alt=""><figcaption></figcaption></figure>
 
-#### Step 7: Adding an Exit Volume (Optional)
+#### Adding an Exit Volume (Optional)
 
-* For a more immersive experience, you can add a volume actor called "BP\_Exit." Placing this actor and configuring the volume inside it will allow players to return to the city if they enter this designated area.
-
-### Making Elements Interactable
-
-#### Step 8: Making Elements Interactable
-
-* If you want to make in-game objects interactable, use the "BP\_InteractableBase" actor. Create a child class from it, modify the static mesh within the actor, and add interaction logic to the event graph.
-* To add interaction functionality to any other class, like a pawn, add the "IVInterface" to it and follow the same interaction logic.
+For a more immersive experience, you can add a volume actor called `BP_Exit` by navigating to `Plugins` > `Infinity Void Content` > `Utils`. Placing this actor and configuring the volume inside it will allow players to return to the city if they enter this designated area.
