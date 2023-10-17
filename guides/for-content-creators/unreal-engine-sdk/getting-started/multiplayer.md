@@ -1,5 +1,4 @@
 ---
-description: Infinity Void Unreal Engine SDK - Getting Started
 cover: >-
   https://images.unsplash.com/photo-1542751371-adc38448a05e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwzfHxnYW1pbmd8ZW58MHx8fHwxNjYzOTI1MzI5&ixlib=rb-1.2.1&q=80
 coverY: 0
@@ -7,24 +6,32 @@ coverY: 0
 
 # Interactable Elements
 
-Infinity Void SDK provides out of the box functionality to make elements present in your scene interactable.&#x20;
+**Infinity Void SDK** offers built-in functionality for enabling interaction with elements within your scene. To make actors interactable, there are two methods available:
 
-In order to make actors interactable there are two ways of achieving it.\
+### **BP\_InteractableBaseChild**
 
+This blueprint simplifies the process of creating interactive elements in your scene. Here are the steps to make an actor interactable:
 
-Usiing BP\_InteractableBaseChild
+a. Duplicate the BP\_InteractableBaseChild blueprint.
 
-This blueprint helps you to create any interactive element to your scene. All you need to do is just duplicate this blueprint OPen the blueprint editor select the visual mesh you want to make interactable. Then drag and drop the actor to your scene.
+<figure><img src="../../../../.gitbook/assets/duplicate.png" alt=""><figcaption></figcaption></figure>
 
-Within the blueprint you can add logic on interaction
+b. Open the blueprint editor.
 
-#### Step 8: Making Elements Interactable
+c. Select the visual mesh you want to make interactable.
 
-* If you want to make in-game objects interactable, use the "BP\_InteractableBase" actor. Create a child class from it, modify the static mesh within the actor, and add interaction logic to the event graph.
-* To add interaction functionality to any other class, like a pawn, add the "IVInterface" to it and follow the same interaction logic.
+<figure><img src="../../../../.gitbook/assets/visual mesh.png" alt=""><figcaption></figcaption></figure>
 
-### Conclusion
+d. Drag and drop the actor into your scene.
 
-You have successfully created a new map and configured essential gameplay elements to enhance the player experience in your project. Save your changes and test your map to ensure everything works as intended. For further assistance or troubleshooting, refer to your project's documentation or consult the development platform you are using.
+Inside the blueprint, you have the flexibility to:
 
-Thank you for using our tools and plugins, and best of luck with your game development project!
+* Add custom logic for interactions.
+
+<figure><img src="../../../../.gitbook/assets/logic.png" alt=""><figcaption></figcaption></figure>
+
+* Modify the displayed text when the user aims at the object.
+* Toggle interactability using a boolean, which can be useful for scenarios where you want to restrict user interaction with the actor based on certain events or conditions.
+
+<figure><img src="../../../../.gitbook/assets/Options IV.png" alt=""><figcaption></figcaption></figure>
+
