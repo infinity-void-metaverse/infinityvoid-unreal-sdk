@@ -7,7 +7,16 @@ coverY: 0
 
 # Interactable Elements
 
-Making Elements Interactable
+Infinity Void SDK provides out of the box functionality to make elements present in your scene interactable.&#x20;
+
+In order to make actors interactable there are two ways of achieving it.\
+
+
+Usiing BP\_InteractableBaseChild
+
+This blueprint helps you to create any interactive element to your scene. All you need to do is just duplicate this blueprint OPen the blueprint editor select the visual mesh you want to make interactable. Then drag and drop the actor to your scene.
+
+Within the blueprint you can add logic on interaction
 
 #### Step 8: Making Elements Interactable
 
