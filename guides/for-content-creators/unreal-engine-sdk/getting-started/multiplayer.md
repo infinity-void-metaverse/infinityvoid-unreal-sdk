@@ -1,9 +1,3 @@
----
-cover: >-
-  https://images.unsplash.com/photo-1542751371-adc38448a05e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwzfHxnYW1pbmd8ZW58MHx8fHwxNjYzOTI1MzI5&ixlib=rb-1.2.1&q=80
-coverY: 0
----
-
 # Interactable Elements
 
 **Infinity Void SDK** offers built-in functionality for enabling interaction with elements within your scene. To make actors interactable, there are two methods available:
@@ -35,3 +29,20 @@ Inside the blueprint, you have the flexibility to:
 
 <figure><img src="../../../../.gitbook/assets/Options IV.png" alt=""><figcaption></figcaption></figure>
 
+### **IVIInteractable Interface**
+
+If you want to make a class interactable other than actors, such as pawns, you can do so by following these steps:
+
+To begin, navigate to the custom class you have created and open it.
+
+If you wish to make this class interactable, rather than actor classes, follow these steps:
+
+a. Open Class which you would like to make interactable.
+
+b. Under Class Settings scroll down the Interface section, select `IVIInteractable`.
+
+<figure><img src="../../../../.gitbook/assets/interface.png" alt=""><figcaption></figcaption></figure>
+
+c. Implement your unique interaction logic in the event graph.
+
+<figure><img src="../../../../.gitbook/assets/custom logic.png" alt=""><figcaption></figcaption></figure>
