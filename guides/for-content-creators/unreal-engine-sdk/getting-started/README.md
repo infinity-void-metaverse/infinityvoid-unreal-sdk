@@ -32,9 +32,7 @@ Your project must be a 'C++' project. 'Blueprint' projects can be converted to C
 
 Open the [**Epic Games Launcher**](https://store.epicgames.com/en-US/download), and navigate to `Unreal Engine` > `Library`.
 
-
-
-<figure><img src="../../../../.gitbook/assets/engine-launch-ce333e744f1d14288ee154dd0e20ebd2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot_1 (1).png" alt=""><figcaption></figcaption></figure>
 
 Either open a project you've already created or create a new project by selecting your desired template. This set-up guide will use the 'Blank' template found under `Games` > `Blank`.
 
