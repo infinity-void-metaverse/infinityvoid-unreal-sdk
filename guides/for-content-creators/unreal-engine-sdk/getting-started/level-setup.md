@@ -125,6 +125,6 @@ Lobby map is the application's default map. This map is visible to players. It o
 
 <figure><img src="../../../../.gitbook/assets/level select.png" alt=""><figcaption></figcaption></figure>
 
-#### Adding an Exit Volume (Optional)
+### Adding an Exit Volume (Optional)
 
 For a more immersive experience, you can add a volume actor called `BP_Exit` by navigating to `Plugins` > `Infinity Void Content` > `Utils`. Placing this actor and configuring the volume inside it will allow players to return to the city if they enter this designated area.
