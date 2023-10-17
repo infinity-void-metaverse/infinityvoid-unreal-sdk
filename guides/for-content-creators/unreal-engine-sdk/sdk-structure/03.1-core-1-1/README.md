@@ -5,7 +5,7 @@ cover: >-
 coverY: 0
 ---
 
-# Actors
+# Widgets
 
 The actor folder contains crucial classes and blueprints in the form of actors.
 
