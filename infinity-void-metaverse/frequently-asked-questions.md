@@ -34,7 +34,7 @@ Finity is Infinity Void’s fungible, ERC20 cryptocurrency token on on the Polyg
 
 ### Can I claim my Avatar name later? <a href="#can-i-claim-my-avatar-name-later" id="can-i-claim-my-avatar-name-later"></a>
 
-Yes. Visit the [Mint Unique Name page](https://mint.infinityvoid.io/ensmint) to mint it. All you need is an installed digital wallet. If the name you require is already minted you can try buying it from the  [secondary market](https://opensea.io/collection/infinity-void-names).
+Yes. Visit the [Mint Unique Name page](https://mint.infinityvoid.io/) to mint it. All you need is an installed digital wallet. If the name you require is already minted you can try buying it from the  [secondary market](https://opensea.io/collection/infinity-void-names).
 
 ### How can I report a player? <a href="#how-can-i-block-or-report-a-player" id="how-can-i-block-or-report-a-player"></a>
 
@@ -56,4 +56,4 @@ LAND within Infinity Void is represented by non-fungible tokens (meaning that ea
 
 ### I need support! Where can I contact you? <a href="#i-need-support-where-can-i-contact-you" id="i-need-support-where-can-i-contact-you"></a>
 
-Join our [Discord](https://discord.com/invite/kQ4rRTtREQ) and visit our #support-ticket channel to create a ticket and  ask whatever questions you have. We’ll answer as soon as possible. Our friendly community members can help too. While you’re there why not check out some of the other channels to learn more about Infinity Void?
+Join our [Discord](https://discord.gg/6Hyg7HbbNN) and visit our #support-ticket channel to create a ticket and  ask whatever questions you have. We’ll answer as soon as possible. Our friendly community members can help too. While you’re there why not check out some of the other channels to learn more about Infinity Void?
