@@ -16,6 +16,7 @@
 #include "InfinityVoid/Actors/Interactables/IVInteractable.h"
 #include "..\Interfaces\IVIInteractable.h"
 #include "InfinityVoid/Utils/ZEZUtils.h"
+#include "Kismet/KismetStringLibrary.h"
 
 // Sets default values
 AIVCharacterBase::AIVCharacterBase(const FObjectInitializer& ObjectInitializer)
@@ -89,6 +90,7 @@ void AIVCharacterBase::Client_PossessedByCalled_Implementation()
 		if(GI->CharacterSavedLoc!=FVector::ZeroVector)
 		{
 			S_TeleportPlayer(GI->CharacterSavedLoc, GI->CharacterSavedRot);
+			//GPC->SetControlRotation(GI->CharacterSavedRot);
 		}
 		GGI->SetDeviceType(GGI->CurrentDeviceType);
 		if(GGI->CurrentDeviceType==E_DeviceType::E_Mobile)
@@ -141,7 +143,7 @@ void AIVCharacterBase::OnUserDetailUpdate(FS_UserDetail _UserDetail)
 	if(_UserDetail.AvatarModelURL.Len()>0)
 	{
 		ZEZUtils::DM("Avatar model url laoding " + _UserDetail.AvatarModelURL, this);
-		ReadyPlayerMeComponent->LoadNewAvatar(_UserDetail.AvatarModelURL,AvatarLoadCompleted, AvatarLoadFailed ); // @Mayank, if error please commend this line
+		ReadyPlayerMeComponent->LoadNewAvatar(_UserDetail.AvatarModelURL,AvatarLoadCompleted, AvatarLoadFailed );
 		if(GPC)
 		{
 			GPC->bShowMouseCursor = false;
@@ -187,7 +189,7 @@ void AIVCharacterBase::OnFirstPersonCamera()
 	{
 		CameraBoom->TargetArmLength = FirstPersonSpringArmLength;
 		CameraBoom->SetRelativeLocation(FirstSpringArmLocation);
-		UpdateCharacterDesiredControllerRotation(true);
+		ControllerSettingAccordingToCamera(true);
 	}
 	else
 	{
@@ -195,21 +197,33 @@ void AIVCharacterBase::OnFirstPersonCamera()
 	}
 }
 
-void AIVCharacterBase::UpdateCharacterDesiredControllerRotation(bool Value)
+void AIVCharacterBase::ControllerSettingAccordingToCamera(bool Value)
 {
 	if(UCharacterMovementComponent* CMC = GetCharacterMovement())
 	{
-		CMC->bUseControllerDesiredRotation = Value;
 		CMC->bOrientRotationToMovement = !Value;
 	}
+	bUseControllerRotationYaw = Value;
 }
-
+ 
 void AIVCharacterBase::OnFirstPersonCameraExit()
 {
 	CameraBoom->TargetArmLength = DefaultSpringArmLength;
 	CameraBoom->SetRelativeLocation(DefaultSpringArmLocation);
-	UpdateCharacterDesiredControllerRotation(false);
+	ControllerSettingAccordingToCamera(false);
 
+}
+
+void AIVCharacterBase::C_FixControlRotation_Implementation(FRotator TargetRotation)
+{
+	ControllerSettingAccordingToCamera(true);
+	GPC->SetControlRotation(TargetRotation);
+	FTimerHandle TempHandle;
+	GetWorld()->GetTimerManager().SetTimer(TempHandle, FTimerDelegate::CreateLambda( [this]()
+	{
+		ControllerSettingAccordingToCamera(false);
+	} ), 1, false);
+	
 }
 
 void AIVCharacterBase::S_TeleportPlayer_Implementation(FVector TargetLocation, FRotator TargetRotation)
@@ -218,6 +232,7 @@ void AIVCharacterBase::S_TeleportPlayer_Implementation(FVector TargetLocation, F
 	{
 		SetActorLocation(TargetLocation);
 		SetActorRotation(TargetRotation);
+		C_FixControlRotation(TargetRotation);
 	}
 }
 

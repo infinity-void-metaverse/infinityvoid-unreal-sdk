@@ -79,10 +79,11 @@ public:
 	UFUNCTION(BlueprintCallable) void SetPlayerVisibility(bool Value) const;
 	UFUNCTION(BlueprintCallable) void OnWeaponEquipped(bool NewVisibility); 
 	UFUNCTION(BlueprintCallable) void OnFirstPersonCamera();
-	void UpdateCharacterDesiredControllerRotation(bool Value);
+	void ControllerSettingAccordingToCamera(bool Value);
 	UFUNCTION(BlueprintCallable) void OnFirstPersonCameraExit();
 	UFUNCTION(Server, Reliable, BlueprintCallable) void S_UpdateUserDetail(FS_UserDetail _UserDetail);
 	UFUNCTION(Server, Reliable, BlueprintCallable) void S_TeleportPlayer(FVector TargetLocation,FRotator TargetRotation);
+	UFUNCTION(Client, Reliable, BlueprintCallable) void C_FixControlRotation(FRotator TargetRotation);
 
 protected:
 	UPROPERTY(ReplicatedUsing = OnRep_OnUserDetailUpdate, BlueprintReadWrite) FS_UserDetail UserDetail;

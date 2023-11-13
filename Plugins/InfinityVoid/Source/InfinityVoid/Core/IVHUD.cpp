@@ -5,6 +5,7 @@
 
 #include "IVGameInstance.h"
 #include "Blueprint/UserWidget.h"
+#include "InfinityVoid/UI/IVUI_CustomUserInterface.h"
 #include "InfinityVoid/UI/IVUI_Main.h"
 #include "InfinityVoid/Utils/ZEZUtils.h"
 #include "Kismet/GameplayStatics.h"
@@ -42,6 +43,13 @@ void AIVHUD::SetJoystickButtonsVisibility(bool bVisible)
 {
 	if(MainUIObj)
 		MainUIObj->SetJoystickVisibility(bVisible);
+	SetCustomUserWidgetVisibility(true);
+}
+
+void AIVHUD::SetCustomUserWidgetVisibility(bool bVisible)
+{
+	if(CustomeUserInterfaceUIObj)
+		CustomeUserInterfaceUIObj->SetCustomPanelVisibility(bVisible);
 }
 
 void AIVHUD::SetVehicleInteractionButtonVisibility(bool bVisible)
@@ -69,6 +77,14 @@ void AIVHUD::AddCrosshairMainScreen()
 		MainUIObj->AddToViewport();
 		if(GGI->CurrentDeviceType==E_DeviceType::E_Mobile)
 			SetJoystickButtonsVisibility(true);
+	}
+	
+	if(ZEZUtils::IsValid(CustomUserInterfaceUIClass, "CustomUserInterfaceUIClass Class not defined", this))
+	{
+		CustomeUserInterfaceUIObj = CreateWidget<UIVUI_CustomUserInterface>(GetOwningPlayerController(), CustomUserInterfaceUIClass);
+		CustomeUserInterfaceUIObj->AddToViewport();
+		if(GGI->CurrentDeviceType==E_DeviceType::E_Mobile)
+			SetCustomUserWidgetVisibility(true);
 	}
 }
 

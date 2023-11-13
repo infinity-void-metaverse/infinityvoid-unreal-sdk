@@ -6,6 +6,7 @@
 #include "GameFramework/HUD.h"
 #include "IVHUD.generated.h"
 
+class UIVUI_CustomUserInterface;
 class UIVUI_Interaction;
 class UIVUI_Main;
 /**
@@ -19,6 +20,7 @@ class INFINITYVOID_API AIVHUD : public AHUD
 	
 public:
 	UPROPERTY(EditAnywhere) TSubclassOf<UIVUI_Main> MainUIClass;
+	UPROPERTY(EditAnywhere) TSubclassOf<UIVUI_CustomUserInterface> CustomUserInterfaceUIClass;
 	
 public:
 	AIVHUD();
@@ -28,10 +30,12 @@ public:
 	UFUNCTION(BlueprintCallable) void SetJumpButtonVisibility(bool bVisible);
 	UFUNCTION(BlueprintCallable) void SetInteractButtonVisibility(bool bVisible);
 	UFUNCTION(BlueprintCallable) void SetJoystickButtonsVisibility(bool bVisible);
+	UFUNCTION(BlueprintCallable) void SetCustomUserWidgetVisibility(bool bVisible);
 	UFUNCTION(BlueprintCallable) void SetVehicleInteractionButtonVisibility(bool bVisible);
 
 private:
 	UIVUI_Main* MainUIObj;
+	UIVUI_CustomUserInterface* CustomeUserInterfaceUIObj;
 
 protected:
 	virtual void BeginPlay() override;
