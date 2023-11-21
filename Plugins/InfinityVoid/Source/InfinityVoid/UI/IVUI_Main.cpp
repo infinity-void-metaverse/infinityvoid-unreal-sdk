@@ -76,13 +76,6 @@ AIVCharacterBase* UIVUI_Main::GetPlayerChar()
 	return PlayerChar;
 }
 
-void UIVUI_Main::SetWidgetVisibility(bool bVisible, UWidget* TargetWidget)
-{
-	if(TargetWidget)
-	{
-		TargetWidget->SetVisibility(bVisible ? ESlateVisibility::Visible : ESlateVisibility::Hidden);
-	}
-}
 
 void UIVUI_Main::OnJumpPressed()
 {

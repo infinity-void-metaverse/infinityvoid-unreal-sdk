@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Blueprint/UserWidget.h"
+#include "IVUI_Base.h"
 #include "IVUI_CustomUserInterface.generated.h"
 
 class UCanvasPanel;
@@ -11,7 +11,7 @@ class UCanvasPanel;
  * If Player wants to use its own UserWidget then he can create child of this class and have to specify that class in HUD 
  */
 UCLASS()
-class INFINITYVOID_API UIVUI_CustomUserInterface : public UUserWidget
+class INFINITYVOID_API UIVUI_CustomUserInterface : public UIVUI_Base
 {
 	GENERATED_BODY()
 public:
@@ -20,7 +20,6 @@ public:
 	
 public:
 	void SetCustomPanelVisibility(bool bVisible);
-	void SetWidgetVisibility(bool bVisible, UWidget* TargetWidget);
 
 protected:
 	virtual void NativeOnInitialized() override;

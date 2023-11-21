@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "IVUI_Base.h"
 #include "Blueprint/UserWidget.h"
 #include "Components/Border.h"
 #include "Components/Button.h"
@@ -15,7 +16,7 @@
  * 
  */
 UCLASS()
-class INFINITYVOID_API UIVUI_Main : public UUserWidget
+class INFINITYVOID_API UIVUI_Main : public UIVUI_Base
 {
 	GENERATED_BODY()
 	
@@ -55,6 +56,4 @@ protected:
 private:
 	class AIVCharacterBase* PlayerChar = nullptr;
 	
-private:
-	void SetWidgetVisibility(bool bVisible, UWidget* TargetWidget);
 };

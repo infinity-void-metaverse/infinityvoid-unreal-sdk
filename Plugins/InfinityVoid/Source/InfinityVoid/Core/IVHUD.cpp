@@ -74,7 +74,7 @@ void AIVHUD::AddCrosshairMainScreen()
 	if(ZEZUtils::IsValid(MainUIClass, "Main UI Class not defined", this))
 	{
 		MainUIObj = CreateWidget<UIVUI_Main>(GetOwningPlayerController(), MainUIClass);
-		MainUIObj->AddToViewport();
+		MainUIObj->AddToViewport(0);
 		if(GGI->CurrentDeviceType==E_DeviceType::E_Mobile)
 			SetJoystickButtonsVisibility(true);
 	}
@@ -82,7 +82,7 @@ void AIVHUD::AddCrosshairMainScreen()
 	if(ZEZUtils::IsValid(CustomUserInterfaceUIClass, "CustomUserInterfaceUIClass Class not defined", this))
 	{
 		CustomeUserInterfaceUIObj = CreateWidget<UIVUI_CustomUserInterface>(GetOwningPlayerController(), CustomUserInterfaceUIClass);
-		CustomeUserInterfaceUIObj->AddToViewport();
+		CustomeUserInterfaceUIObj->AddToViewport(1);
 		if(GGI->CurrentDeviceType==E_DeviceType::E_Mobile)
 			SetCustomUserWidgetVisibility(true);
 	}
